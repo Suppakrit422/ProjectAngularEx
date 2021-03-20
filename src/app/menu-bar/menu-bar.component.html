@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="row">
+        <div class="col-sm-12" id="VersionPro">
+            RD Tax Filng 1.0.0
+        </div>
+    </div>
+    <div class="col-sm-12" *ngFor="let item of ListMenu">
+        <div class="row item-menu" routerLink="/{{item.URL}}" routerLinkActive="active-link">
+            <div class="col-sm-2 imenu"><span class="IconMenu"><i class="{{item.icon_style}}"></i></span></div>
+            <div class="col-sm-10 TagNameMenu">
+                {{item.Name}}
+            </div>
+        </div>
+    </div>
+</div>
+
+

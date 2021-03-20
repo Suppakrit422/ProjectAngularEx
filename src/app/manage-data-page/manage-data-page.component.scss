@@ -1,0 +1,36 @@
+.itemCard{
+    margin: 5%;
+    padding: 2%;
+    border-bottom: 1px solid;
+}
+
+.itemCard:hover{
+    background-color: darkseagreen;
+    transition: 0.1s;
+    opacity: 1;
+    cursor: pointer;
+    .TagNameH2{
+        color: rgb(255, 255, 255);
+    }
+    .TagNameH1{
+        color: rgb(255, 255, 255);
+    }
+    #iconFileM{
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+#iconFileM{
+    font-size: 30px;
+    color: rgb(21, 23, 24);
+}
+
+.TagNameH1{
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.TagNameH2{
+    color: darkgray;
+}

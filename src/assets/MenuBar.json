@@ -1,0 +1,46 @@
+{
+  "Menu_Version": "1.0",
+  "LMenu": [
+    {
+      "URL": "home",
+      "icon-style": "fa fa-home",
+      "Name": "หน้าหลัก"
+    },
+    {
+      "URL": "managedata",
+      "icon-style": "fa fa-edit",
+      "Name": "จัดเตรียมข้อมูลแบบ"
+    },
+    {
+      "URL": "TransferdataPage",
+      "icon-style": "fa fa-folder-open",
+      "Name": "โอนย้าย"
+    },
+    {
+      "URL": "BabkupDataPage",
+      "icon-style": "fa fa-database",
+      "Name": "สำรองข้อมูล"
+    },
+    {
+      "URL": "SettingPage",
+      "icon-style": "fa fa-gear",
+      "Name": "ตั้งค่า"
+    },
+    {
+      "URL": "RecommendPage",
+      "icon-style": "fa fa-book",
+      "Name": "แนะนำการใช้งาน"
+    },
+    {
+      "URL": "AboutPage",
+      "icon-style": "fa fa-question-circle-o",
+      "Name": "เกี่ยวกับ"
+    },
+    {
+      "URL": "UpdatePage",
+      "icon-style": "fa fa-refresh",
+      "Name": "อัพเดท"
+    }
+  ]
+}
+

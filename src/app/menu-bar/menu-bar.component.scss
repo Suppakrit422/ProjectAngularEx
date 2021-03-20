@@ -1,0 +1,39 @@
+.item-menu{
+    padding: 0.5rem;
+}
+.IconMenu{
+    font-size: 25px;
+    color: darkcyan;
+}
+.imenu{
+    padding-top: 5%;
+}
+.TagNameMenu{
+    padding: 8% 2% 5% 8%;
+    font-size: 16px;
+    //font-weight: 900;
+    font-family: 'Prompt', sans-serif;
+}
+.item-menu:hover{
+    background-color: #FBFCFC;
+    //font-weight: 900;
+    cursor: pointer;
+    transition: 0.3s;
+    .IconMenu{
+        color: #1E8449;
+    }
+}
+
+.active-link{
+    background-color: rgb(255, 145, 0);
+    border: 0px;
+}
+#VersionPro{
+    text-align: center;
+    color: #145A32 ;
+    font-weight: 700;
+    padding: 0.5rem;
+}
+*[ng-reflect-router-link]:focus {
+   outline: none;
+ }
